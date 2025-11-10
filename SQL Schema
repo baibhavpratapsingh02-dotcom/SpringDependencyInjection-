@@ -1,0 +1,9 @@
+CREATE DATABASE hibernate_db;
+USE hibernate_db;
+
+CREATE TABLE Student (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    PRIMARY KEY (id)
+);
